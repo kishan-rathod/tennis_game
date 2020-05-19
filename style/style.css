@@ -1,0 +1,10 @@
+canvas{
+  margin: 20px auto;
+  text-align:center;
+  display:flex;
+}
+.container { 
+  font-size: 20px;
+  margin: 10 auto; 
+  text-align:center;
+}
