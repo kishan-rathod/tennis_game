@@ -22,7 +22,7 @@
 	}
 
 	$(document).ready(function(){
-		var websocket = new WebSocket("ws://<?php echo $_SERVER['SERVER_NAME'];?>:8090/demo/php-socket.php"); 
+		var websocket = new WebSocket("wss://<?php echo $_SERVER['SERVER_NAME'];?>:8090/demo/php-socket.php"); 
 		websocket.onopen = function(event) { 
 			showMessage("<div class='chat-connection-ack'>Connection is established!</div>");		
 		}
